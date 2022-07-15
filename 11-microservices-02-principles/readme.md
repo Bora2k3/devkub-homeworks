@@ -43,3 +43,5 @@ $ curl localhost/images/c31e9789-3fab-4689-aa67-e7ac2684fb0e.jpg > c31e9789-3fab
 $ ls
 c31e9789-3fab-4689-aa67-e7ac2684fb0e.jpg
 ```
+
+[РЕШЕНИЕ](solution.md)
