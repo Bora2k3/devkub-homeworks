@@ -123,6 +123,8 @@ Events:
 ```
 ubuntu@devkub-vm:~$ kubectl apply -f hello-world-deployment.yaml 
 deployment.apps/hello-world-deployment configured
+или
+ubuntu@devkub-vm:~$ kubectl scale deployment/hello-world-deployment --replicas=5
 ubuntu@devkub-vm:~$ kubectl get pods
 NAME                                     READY   STATUS    RESTARTS   AGE
 hello-world-deployment-d7ff4699c-54rq5   1/1     Running   0          9s
